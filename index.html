@@ -1,31 +1,86 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-with, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class = "container">
-        <ul type = "none">
-            <li> <a href = "">Home</a></li>
-            <li> <a href = "">Menu</a></li>
-            <li> <a href = "">About Us</a></li>
-            <li> <a href = "">Location</a></li>
-            <li> <a href = "">Contact</a></li>
-        </ul>
-    </div>
-    <div class = "text">
-        <h1>Welcome!</h1>
-        <h2>Chips on the Green is a long standing takeaway, which has mastered unique recipes to provide you with the crispiest fish. We are located on Berrymuir Road, Portlethen, Aberdeenshire blah blah blah etc idk something else goes here</h2>
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>Chips On The Green</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6ef35a70b3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            
+            <a href="#" class = "logo">Chips on the <span style = "color: limegreen">Green</a></span>
+            <span class = "navBtn">
+                <i class = "fas fa-bars"></i>
+            </span> 
+            <ul class = "navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>        
 
-        <h3>Want To See Our Menu?</h3>
-        <div class = "button">
-            <a href="menu.html" class="btn">Take Me There! &#10132;</a>
+        <!---Home-->
+
+        <section class = "home" id = "home">
+            <div class = "home-text">
+                <h1>Chips on the Green</h1>
+                <h2>Local chip shop <br> idfk lol</h2>
+                <a href="menu.html" class = "btn">Browse Our Menu!</a>
+            </div>
+            <div class = "home-img">
+                <img src="images/placeholders/image-removebg-preview.png" alt="">
+            </div>
+        </section>
+    </div>
+
+    <!--gallery attempt 5-->
+        <div class = "food container">
+            <h2>Some of our Products</h2>
+            <div class = "row">
+                <div class = "col-3">
+                    <img src="images/placeholders/actualimg1.png">
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-3">
+                    <img src="images/placeholders/actualimg2.jpg">
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-3">
+                    <img src="images/placeholders/actualimg1.png">
+                </div>
+            </div>
         </div>
-    </div>
-</body>
+
+    <!--services-->
+    <section class = "services" id = "services">
+        <div class = "heading">
+            <h2>Services</h2>
+        </div>
+        <div class = "service-container">
+            <div class = "s-box">
+                <img src="images/placeholders/62040.jpg">
+                <h3>Collection</h3>
+                <p>Order in store, over the phone, or on our app and <br>collect your order in store!</p>
+            </div>
+            <div class = "s-box">
+                <img src="images/placeholders/Online_Shoping_29.jpg">
+                <h3>Delivery</h3>
+                <p>Order over the phone, or on our app and we'll deliver to you!*</p>
+                <p>*Delivery charge is £3.00</p>
+            </div>
+        </div>
+    </section>
 
 
-
-
-
+    </body>
 </html>
